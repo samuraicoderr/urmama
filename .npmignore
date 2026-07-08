@@ -1,0 +1,12 @@
+.git/
+.gitignore
+.npmignore
+.docs/
+.env
+.env.example
+Makefile
+tests/
+scratch/
+implementation_plan.md
+task.md
+walkthrough.md
