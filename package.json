@@ -1,6 +1,6 @@
 {
   "name": "urmama",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Rewrite the full commit history of a Git branch so that all commits fall within a specified date range.",
   "main": "bin/urmama.js",
   "bin": {
