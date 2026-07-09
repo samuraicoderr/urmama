@@ -11,5 +11,13 @@
   },
   "keywords": ["git", "history", "rewrite", "dates", "commit"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuraicoderr/urmama.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuraicoderr/urmama/issues"
+  },
+  "homepage": "https://github.com/samuraicoderr/urmama#readme"
 }
