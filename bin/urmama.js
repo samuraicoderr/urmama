@@ -409,8 +409,9 @@ async function executeRewrite({
     console.log(`Updating branch "${destBranchName}" reference to new HEAD...`);
     updateBranchRef(destBranchName, newHeadHash);
   }
-  
   console.log(`\x1B[32mSuccessfully rewrote history! Branch "${destBranchName}" is now at ${newHeadHash.slice(0, 7)}.\x1B[0m`);
+  console.log(`\nTo inspect the rewritten commits and verify dates, run:`);
+  console.log(`  \x1B[36mgit log ${destBranchName} --format="%h %ad %s" --date=short\x1B[0m\n`);
   
   if (forcePushTo) {
     console.log(`Force pushing "${destBranchName}" to remote "${forcePushTo}"...`);
