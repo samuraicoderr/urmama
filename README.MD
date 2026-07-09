@@ -1,8 +1,21 @@
 # urmama
 
+```
+   _   _ ____  __  __    _    __  __    _   
+  | | | |  _ \|  \/  |  / \  |  \/  |  / \  
+  | | | | |_) | |\/| | / _ \ | |\/| | / _ \ 
+  | |_| |  _ <| |  | |/ ___ \| |  | |/ ___ \
+   \___/|_| \_\_|  |_/_/   \_\_|  |_/_/   \_\
+```
+
+
 urmama is a Node.js CLI tool for rewriting the full commit history of a Git branch so that every commit falls within a chosen date window while preserving the original order of commits.
 
+For detailed information on options, modes, branch handling, and automation, see the **[urmama CLI Documentation](documentation.md)**.
+
 It is especially useful for re-timing a branch for a hackathon, project sprint, or other date-based workflow without changing the commit contents themselves.
+
+[![urmama demo](.docs/urmama-demo.png)](.docs/urmama-demo.png)
 
 ## Features
 
